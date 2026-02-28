@@ -9,15 +9,15 @@
   }
 }
 
-@mixin basicActiveLink {
+@mixin withBasicActiveLink {
   button,
   a {
     @include selfActiveLink;
   }
 }
 
-@mixin activeLink {
-  @include basicActiveLink;
+@mixin withActiveLinks {
+  @include withBasicActiveLink;
   button,
   a {
     @media #{$hoverMediaRules} {

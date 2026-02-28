@@ -1,8 +1,8 @@
 {
   "name": "piv-tilda-project",
   "version": "0.0.0",
-  "timetag": "260227-2018",
-  "timestamp": "2026.02.27 20:18:01 +0300",
+  "timetag": "260228-1436",
+  "timestamp": "2026.02.28 14:36:04 +0300",
   "changed": "2026.02.27, 20:03",
   "description": "Compillable js and css assets for P-I-V brand tilda site project",
   "main": "index.html",
