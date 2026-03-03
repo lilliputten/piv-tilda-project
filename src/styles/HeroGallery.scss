@@ -5,7 +5,10 @@
 
 // Hide slides by default. See also js code in the `src/HeroGallery.ts` module.
 #rec1966648601,
-#rec1972774181 {
+#rec1972774181,
+#rec1988257941,
+#rec1988326791,
+#rec1988383811 {
   transition: opacity $disappearTimeMs;
   opacity: 0;
   &.inited {

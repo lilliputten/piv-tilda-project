@@ -1,11 +1,15 @@
 let owlCarousel: JQuery<HTMLDivElement> | undefined;
 
+const slides = [
+  // Gallery slide ids. See also styles in the `src/styles/HeroGallery.scss` module.
+  '#rec1966648601',
+  '#rec1972774181',
+  '#rec1988257941',
+  '#rec1988326791',
+  '#rec1988383811',
+];
+
 function initCarousel() {
-  const slides = [
-    // Gallery slide ids. See also styles in the `src/styles/HeroGallery.scss` module.
-    '#rec1966648601',
-    '#rec1972774181',
-  ];
   const jqSlides = $(slides.join(', '));
   const block = $('.uc-HeroGallery');
   const wrap = $(block.find('.carousel-wrapper'));
