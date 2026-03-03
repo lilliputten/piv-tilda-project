@@ -11,7 +11,7 @@ const {
   mobileTreshold,
   smallTreshold,
   tinyTreshold,
-  microTreshold
+  microTreshold,
 } = cssVariables;
 
 // Convert threshold strings to numbers
@@ -58,7 +58,7 @@ export const vars: TCssVariables = {
   tinyTreshold,
   tinyTresholdPx,
   microTreshold,
-  microTresholdPx
+  microTresholdPx,
 };
 
 export {
@@ -80,5 +80,5 @@ export {
   mobileTresholdPx,
   smallTresholdPx,
   tinyTresholdPx,
-  microTresholdPx
+  microTresholdPx,
 };

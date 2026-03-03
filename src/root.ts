@@ -2,6 +2,7 @@ import './project-info.scss';
 import './variables/variables-expose.scss';
 import './styles';
 
+import { initConfirmForms } from './ConfirmForm';
 import { isDebug } from './core/constants/isDebug';
 import { isDev } from './core/constants/isDev';
 import { initHeroGallery } from './HeroGallery';
@@ -18,6 +19,8 @@ function printAppInfo() {
 function initPage() {
   // Start subcomponents...
   initHeroGallery();
+  // Confirmed forms submission
+  initConfirmForms();
 
   /* // NOTE: This doesn't work
    * initTildaLabel();

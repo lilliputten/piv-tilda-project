@@ -41,7 +41,7 @@
     transform: translateX(-50%);
     bottom: 0;
     left: 50%;
-    button[class*=owl-] {
+    button[class*='owl-'] {
       span {
         transition: all $transitionTimeMs;
         background: color.change($primaryColor, $alpha: 0.5);
@@ -56,7 +56,7 @@
   // Navigation buttons: prev, next
   .owl-nav {
     margin: 0;
-    button[class*=owl-] {
+    button[class*='owl-'] {
       $size: 30px;
       position: absolute;
       top: 50%;
